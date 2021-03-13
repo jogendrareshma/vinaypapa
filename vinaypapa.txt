@@ -1,0 +1,6 @@
+yum install httpd git -y
+service httpd start
+chkconfig httpd on
+cd  /var/www/html/
+git clone <http://3.12.123.64/>
+:wq
